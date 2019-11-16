@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Lobster&display=swap');
+
+body {
+	background-color: #eee;
+	margin-top: 80px;
+}
+
+
+.nav-custom{
+	background-color: #001a1c;
+}
+
+.text-judul:hover{
+	opacity: 0.8;
+	font-style: none;
+}
+
+
+.text-detail{
+	font-family: arial;
+}
+
+.text-default{
+	font-family: 'Bree Serif', serif;
+}
+
+.judul-blog{
+	font-family: 'Lobster', cursive;
+}
+
+@media(min-width: 720px){
+	.img-caption{
+		max-height: 300px;
+		max-width: 100%;
+		background-position: center;
+		background-color: #000;
+		-webkit-background-size: cover; /* For WebKit*/
+	    -moz-background-size: cover;    /* Mozilla*/
+	    -o-background-size: cover;      /* Opera*/
+	    background-size: cover;         /* Generic*/
+	}
+
+	.text-judul{
+		font-family: 'Abril Fatface', cursive;
+		font-size: 3rem;
+		font-style: none;
+		color: #000;
+	}
+
+	.img-profile{
+		border-radius: 50%;
+		width: 100%;
+		align-items: center;
+	}
+
+	.text-content{
+		font-family: 'Livvic', sans-serif;
+		font-size: 1.2rem;
+		font-style: none;
+	}
+}
+
+@media(max-width: 720px){
+	.img-caption{
+		max-height: 200px;
+		max-width: 100%;
+		background-position: center;
+		background-color: #000;
+		-webkit-background-size: cover; /* For WebKit*/
+	    -moz-background-size: cover;    /* Mozilla*/
+	    -o-background-size: cover;      /* Opera*/
+	    background-size: cover;         /* Generic*/
+	}
+
+	.text-judul{
+		font-family: 'Abril Fatface', cursive;
+		font-size: 2rem;
+		font-style: none;
+		color: #000;
+	}
+
+	.img-profile{
+		border-radius: 50%;
+		height: 100%;
+		margin: auto;
+	}
+
+	.text-content{
+		font-family: 'Livvic', sans-serif;
+		font-size: 1rem;
+		font-style: none;
+	}
+}
+
+
+
+.img-caption:hover{
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.hr-style{
+	border-top: 1px dashed #8c8b8b;
+	border-bottom: 1px dashed #fff;
+}
+
+.button-nav{
+	width: 48%;
+
+}
